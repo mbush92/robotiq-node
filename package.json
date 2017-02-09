@@ -1,0 +1,25 @@
+{
+  "name": "robotiq-node",
+  "version": "1.0.0",
+  "description": "Nodejs library for controlling Robotiq Model 2F-85 gripper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src --out-dir ./lib",
+    "run": "babel ./src --out-dir ./lib | node ./lib/gripper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbush92/robotiq-node.git"
+  },
+  "keywords": [
+    "Robotiq",
+    "node"
+  ],
+  "author": "Matthew Bush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbush92/robotiq-node/issues"
+  },
+  "homepage": "https://github.com/mbush92/robotiq-node#readme",
+}
