@@ -2,7 +2,6 @@
   "name": "urscript-tools-example",
   "version": "1.0.0",
   "description": "Example projects on how to use urscript-tools",
-  "main": "index.js",
   "scripts": {
     "intro": "npx urscript-runner ./examples/intro/welcome.script",
     "bundle-basic": "npx urscript-bundler --config ./examples/bundle-basic/bundle.config.json",
@@ -19,7 +18,7 @@
     "robots"
   ],
   "author": "Hirebotics",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Hirebotics/urscript-tools-example/issues"
   },
