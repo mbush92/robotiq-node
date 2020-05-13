@@ -1,0 +1,21 @@
+{
+  "sources": {
+    "global": {
+      "scripts": {
+        "include": ["./examples/bundle-basic/src/**/*.script"],
+        "exclude": [
+          "**/__tests__/**/*.script",
+          "**/__mocks__/**/*.script",
+          "**/dist/**/*.script"
+        ]
+      }
+    }
+  },
+  "options": {
+    "bundleKey": "files",
+    "outputDir": "./examples/bundle-basic/dist",
+    "bundleOutputFile": "program",
+    "scriptSuffix": "script",
+    "writeToDisk": true
+  }
+}

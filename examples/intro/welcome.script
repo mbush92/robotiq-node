@@ -1,0 +1,2 @@
+textmsg("Hello, welcome to urscript-tools!")
+textmsg("Edit examples/intro/welcome.script to run your own code")
