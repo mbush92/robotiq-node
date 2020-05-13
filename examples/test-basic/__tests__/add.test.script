@@ -2,7 +2,7 @@ def test_add_equals():
   local result = add(5, 5)
 
   assertEqual(
-    name = "add",
+    name = "add - equals",
     result = result,
     expected = 10
   )
