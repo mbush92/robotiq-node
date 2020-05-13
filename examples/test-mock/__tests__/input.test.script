@@ -1,0 +1,33 @@
+local signalLevel = True
+
+def mock_get_standard_digital_in(index):
+  return signalLevel
+end
+
+def test_getStandardDigitalIn_True():
+
+  signalLevel = True
+
+  local result = get_standard_digital_in(0)
+
+  assertEqual(
+    name = "add",
+    result = result,
+    expected = signalLevel
+  )
+
+end
+
+def test_getStandardDigitalIn_False():
+
+  signalLevel = False
+
+  local result = get_standard_digital_in(0)
+
+  assertEqual(
+    name = "add",
+    result = result,
+    expected = signalLevel
+  )
+
+end

@@ -1,0 +1,30 @@
+{
+  "name": "urscript-tools-example",
+  "version": "1.0.0",
+  "description": "Example projects on how to use urscript-tools",
+  "main": "index.js",
+  "scripts": {
+    "intro": "npx urscript-runner ./examples/intro/welcome.script",
+    "bundle-basic": "npx urscript-bundler --config ./examples/bundle-basic/bundle.config.json",
+    "test-basic": "npx urscript-tester --config ./examples/test-basic/urtester.config.json ./examples/test-basic/__tests__/*",
+    "test-mock": "npx urscript-tester --config ./examples/test-basic/urtester.config.json ./examples/test-mock/__tests__/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hirebotics/urscript-tools-example.git"
+  },
+  "keywords": [
+    "urscript",
+    "universal",
+    "robots"
+  ],
+  "author": "Hirebotics",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hirebotics/urscript-tools-example/issues"
+  },
+  "homepage": "https://github.com/Hirebotics/urscript-tools-example#readme",
+  "dependencies": {
+    "@hirebotics/urscript-tools": "^1.4.0"
+  }
+}

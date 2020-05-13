@@ -1,0 +1,14 @@
+def math_clamp(val, min = 0, max = 1):
+  if(val > max):
+    return max
+  elif(val < min):
+    return min
+  else:
+    return val
+  end
+end
+
+def round(num, numDigits = 0):
+  local multiplier = pow(10, numDigits)
+  return floor((num * multiplier) + 0.5) / multiplier
+end

@@ -1,0 +1,10 @@
+def main():
+
+  # Example using function from another file
+  # math_clamp exist in util/math.script
+  local val = math_clamp(2, 0, 1)
+
+  # print val
+  textmsg(val)
+
+end
