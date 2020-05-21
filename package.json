@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/Hirebotics/urscript-tools-example#readme",
   "dependencies": {
-    "@hirebotics/urscript-tools": "^1.4.1"
+    "@hirebotics/urscript-tools": "^1.6.0"
   }
 }
